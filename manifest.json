@@ -4,6 +4,10 @@
   "icons": [{
         "src": "images/touch/icon-128x128.png",
         "sizes": "128x128"
+      },
+      {
+        "src": "images/touch/WV_White.jpg",
+        "sizes": "128x128"
       }, {
         "src": "images/touch/apple-touch-icon.png",
         "sizes": "152x152"
@@ -15,5 +19,6 @@
         "sizes": "192x192"
       }],
   "start_url": "/#!/",
+  
   "display": "standalone"
 }
