@@ -30,11 +30,15 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       app.route = 'user-info';
       app.params = data.params;
     });
-
+    
+   
+      
     page('/membership', function () {
       app.route = 'membership';
     });
-
+ page('/photos', function () {
+      app.route = 'photos';
+    });
     // add #! before urls
     page({
       hashbang: true
